@@ -43,6 +43,14 @@
   <ItemGroup>
      <Folder Include="Assets" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/New Folder" />
+     <Folder Include="Assets/AddressableAssetsData/AssetGroups" />
+     <Folder Include="Assets/AddressableAssetsData/AssetGroups/Schemas" />
+     <Folder Include="Assets/New Folder 1" />
+     <Folder Include="Assets/AddressableAssetsData/OSX" />
+     <Folder Include="Assets/AddressableAssetsData/DataBuilders" />
+     <Folder Include="Assets/AddressableAssetsData" />
+     <Folder Include="Assets/AddressableAssetsData/AssetGroupTemplates" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

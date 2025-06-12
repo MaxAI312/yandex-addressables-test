@@ -1,3 +1,53 @@
+# =======================
+# Unity .gitignore (для GitHub Pages + Addressables)
+# =======================
+
+# Unity-generated folders (никогда не коммитятся)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+Logs/
+
+# Rider / VS Code / VS
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Addressables cache
+ServerData/
+Assets/AddressableAssetsData/*/catalog_*.json
+Assets/AddressableAssetsData/*/*.hash
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Сборки для WebGL (если собираешь в Build/)
+Build/
+
+# Generated VS .NET Core config
+*.DotSettings.user
+
+# Если используешь Git LFS, то можно игнорировать .gitattributes (иначе — оставь)
+.gitattributes
+
+# Backup файлы
+*.bak
+*.old
+*.orig
 Library/
 Temp/
 obj/
